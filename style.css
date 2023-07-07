@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+@font-face {
+    font-family: 'Nau Sea';
+    src: url('./assets/Nau Sea.otf') format('opentype');
+}
+
+body {
+    background: url('https://static.vecteezy.com/system/resources/previews/006/241/336/large_2x/retro-style-80s-sci-fi-background-futuristic-with-laser-grid-landscape-digital-cyber-surface-style-of-the-1980s-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    --bs-body-font-family: 'Agdasima', sans-serif;
+    --bs-body-color: white;
+}
+
+.text-body-emphasis {
+    font-family: 'Nau Sea';
+    --bs-emphasis-color: white;
+}
+
+.text-body-emphasis.fw-bold {
+    font-weight: 100!important;
+}
+
+.body-blurry {
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(4px);
+}
